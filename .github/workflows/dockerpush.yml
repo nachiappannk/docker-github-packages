@@ -9,13 +9,13 @@ on:
   pull_request:
 
 env:
-  IMAGE_NAME: docker-github-packages
+  IMAGE_NAME: git-hub-image
   DOCKER_FILE: SomeFolder/Dockerfile
   BUILD_CONTEXT: SomeFolder
 
 jobs:
   # Run tests.
-  # See also https://docs.docker.com/docker-hub/builds/automated-testing/
+  # See also https://docs.docker.com/docker-hub/builds/automated-testing/  
   # Check docker tests
   # See also https://docs.docker.com/docker-hub/builds/
   push:
