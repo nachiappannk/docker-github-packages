@@ -15,7 +15,7 @@ env:
 
 jobs:
   # Run tests.
-  # See also https://docs.docker.com/docker-hub/builds/automated-testing/
+  # See also https://docs.docker.com/docker-hub/builds/automated-testing/  
   # Check docker tests
   # See also https://docs.docker.com/docker-hub/builds/
   push:
